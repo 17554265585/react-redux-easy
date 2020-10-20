@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": [
+      "ES2019"
+    ],
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "rootDir": "./",
+    "outDir": "output",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./*",
+    "./**/*",
+    ".eslintrc.js"
+  ]
+}
