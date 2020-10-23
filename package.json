@@ -2,9 +2,10 @@
     "name": "react-redux-easy",
     "version": "0.0.1",
     "scripts": {
-        "start": "node cli start"
+        "start": "node cli start",
+        "build": "rm -rf ./output && tsc"
     },
-    "appName": "book",
+    "main": "output/index.js",
     "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.6.2",
