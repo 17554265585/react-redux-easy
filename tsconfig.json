@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "jsx": "react",
         "module": "es2015",
         "moduleResolution": "node",
         "target": "esnext",
@@ -18,8 +19,7 @@
         "experimentalDecorators": true
     },
     "exclude": [
-        "node_modules",
-        "example"
+        "node_modules"
     ],
     "include": [
         "./*",

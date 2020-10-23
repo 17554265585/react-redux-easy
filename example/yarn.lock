@@ -4689,10 +4689,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "http://172.16.1.179:4873/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
   integrity sha1-MOvR73wv3/AcOk8VEESvJfqwUj4=
 
-eslint@^6.6.0, eslint@^7.3.1:
-  version "6.8.0"
-  resolved "http://172.16.1.179:4873/eslint/-/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
-  integrity sha1-YiYtZylzn5J1cjgkMC+yJ8jJP/s=
+eslint@6.6.0, eslint@^6.6.0, eslint@^7.3.1:
+  version "6.6.0"
+  resolved "http://172.16.1.179:4873/eslint/-/eslint-6.6.0.tgz#4a01a2fb48d32aacef5530ee9c5a78f11a8afd04"
+  integrity sha1-SgGi+0jTKqzvVTDunFp48RqK/QQ=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -4709,7 +4709,7 @@ eslint@^6.6.0, eslint@^7.3.1:
     file-entry-cache "^5.0.1"
     functional-red-black-tree "^1.0.1"
     glob-parent "^5.0.0"
-    globals "^12.1.0"
+    globals "^11.7.0"
     ignore "^4.0.6"
     import-fresh "^3.0.0"
     imurmurhash "^0.1.4"
@@ -4722,7 +4722,7 @@ eslint@^6.6.0, eslint@^7.3.1:
     minimatch "^3.0.4"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
-    optionator "^0.8.3"
+    optionator "^0.8.2"
     progress "^2.0.0"
     regexpp "^2.0.1"
     semver "^6.1.2"
@@ -5392,17 +5392,10 @@ global-prefix@^3.0.0:
     kind-of "^6.0.2"
     which "^1.3.1"
 
-globals@^11.1.0:
+globals@^11.1.0, globals@^11.7.0:
   version "11.12.0"
   resolved "http://172.16.1.179:4873/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
-
-globals@^12.1.0:
-  version "12.4.0"
-  resolved "http://172.16.1.179:4873/globals/-/globals-12.4.0.tgz#a18813576a41b00a24a97e7f815918c2e19925f8"
-  integrity sha1-oYgTV2pBsAokqX5/gVkYwuGZJfg=
-  dependencies:
-    type-fest "^0.8.1"
 
 globby@8.0.2:
   version "8.0.2"
@@ -7837,7 +7830,7 @@ optimize-css-assets-webpack-plugin@5.0.3:
     cssnano "^4.1.10"
     last-call-webpack-plugin "^3.0.0"
 
-optionator@^0.8.1, optionator@^0.8.3:
+optionator@^0.8.1, optionator@^0.8.2:
   version "0.8.3"
   resolved "http://172.16.1.179:4873/optionator/-/optionator-0.8.3.tgz#84fa1d036fe9d3c7e21d99884b601167ec8fb495"
   integrity sha1-hPodA2/p08fiHZmIS2ARZ+yPtJU=
@@ -9210,10 +9203,10 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-i
   resolved "http://172.16.1.179:4873/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-redux-easy@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/react-redux-easy/-/react-redux-easy-0.0.1.tgz#429ddfa0fd0c4bfce5e4a5d776567ef0fc7682c0"
-  integrity sha512-DiXOaVv3xmCz24LsSeikgo6znWkDHWzmhtr1uF0U+O62HTIqkKyHJxbEOQJ+p39o0OHG+DDBXmL9VrfFZPN1uQ==
+react-redux-easy@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/react-redux-easy/-/react-redux-easy-0.0.2.tgz#1c2dca690d9ea87f3607d2f179a667dd11987910"
+  integrity sha512-hwFE72A3cTP2eOBjiBFKfP5/Eds62TooDY0H959TTft6GGfdqI2ymm6+3P6GM7CTLrOrF9QfIx0r03Vk5p5JAg==
 
 react-redux@^7.2.1:
   version "7.2.1"
@@ -10742,11 +10735,6 @@ type-fest@^0.11.0:
   version "0.11.0"
   resolved "http://172.16.1.179:4873/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
   integrity sha1-l6vwhyMQ/tiKXEZrJWgVdhReM/E=
-
-type-fest@^0.8.1:
-  version "0.8.1"
-  resolved "http://172.16.1.179:4873/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
-  integrity sha1-CeJJ696FHTseSNJ8EFREZn8XuD0=
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"

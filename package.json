@@ -6,6 +6,7 @@
         "build": "rm -rf ./output && tsc"
     },
     "main": "output/index.js",
+    "types": "output/index.d.ts",
     "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.6.2",

@@ -8,8 +8,8 @@ import ClassComponent from './modules/ClassComponent';
 ReactDOM.render(
     <React.StrictMode>
         <Provider context={context} store={store}>
-        <ClassComponent id={8} />
-        {/* <HooksComponents /> */}
+            <ClassComponent id={8} />
+            {/* <HooksComponents /> */}
         </Provider>
     </React.StrictMode>,
     document.getElementById('root'),
